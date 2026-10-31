@@ -1,6 +1,12 @@
-# IranRouter Python
+<p align="center">
+  <img src="assets/logo.svg" alt="IranRouter" width="96" height="96">
+</p>
 
-راهنمای ساده اتصال به [IranRouter](https://iranrouter.net) با پایتون.
+<h1 align="center">IranRouter Python</h1>
+
+<p align="center">
+  راهنمای ساده اتصال به <a href="https://iranrouter.net">IranRouter</a> با پایتون
+</p>
 
 IranRouter یک API سازگار با OpenAI است.
 فقط `base_url` و کلید API را عوض کنید — بقیه مثل OpenAI SDK است.
@@ -183,5 +189,12 @@ print(r.json()["choices"][0]["message"]["content"])
 - مستندات API: https://iranrouter.net/docs
 - کلیدها: https://iranrouter.net/dashboard/keys
 - شارژ اعتبار: https://iranrouter.net/dashboard/credits
+
+## کمک و مشارکت
+
+اگر راهنمایی، مثال بیشتر، یا بهبودی لازم داشتید:
+
+- در [Issues](https://github.com/BytelabsTeam/iranrouterPython/issues) بنویسید
+- یا درخواست‌تان را در [Wiki](https://github.com/BytelabsTeam/iranrouterPython/wiki) بگذارید
 
 MIT — [Bytelabs](https://github.com/BytelabsTeam)
