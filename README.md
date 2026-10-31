@@ -8,6 +8,20 @@
   راهنمای ساده اتصال به <a href="https://iranrouter.net">IranRouter</a> با پایتون
 </p>
 
+<p align="center">
+  <a href="https://iranrouter.net"><img src="https://img.shields.io/badge/IranRouter-API-34D399?style=flat-square" alt="IranRouter"></a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.9+">
+  &nbsp;
+  <img src="https://img.shields.io/badge/OpenAI-compatible-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI compatible">
+  &nbsp;
+  <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT">
+</p>
+
+<p align="center">
+  <img src="assets/logo-horizontal.svg" alt="IranRouter" height="28">
+</p>
+
 IranRouter یک API سازگار با OpenAI است.
 فقط `base_url` و کلید API را عوض کنید — بقیه مثل OpenAI SDK است.
 
@@ -189,6 +203,7 @@ print(r.json()["choices"][0]["message"]["content"])
 - مستندات API: https://iranrouter.net/docs
 - کلیدها: https://iranrouter.net/dashboard/keys
 - شارژ اعتبار: https://iranrouter.net/dashboard/credits
+- نسخهٔ Node.js: https://github.com/BytelabsTeam/iranrouter-node
 
 ## کمک و مشارکت
 
